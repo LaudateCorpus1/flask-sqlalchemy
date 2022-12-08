@@ -10,11 +10,11 @@ attrs==21.2.0
     # via pytest
 babel==2.9.1
     # via sphinx
-backports.entry-points-selectable==1.1.0
+backports-entry-points-selectable==1.1.0
     # via virtualenv
 blinker==1.4
-    # via -r requirements/tests.in
-certifi==2021.10.8
+    # via -r tests.in
+certifi==2022.12.7
     # via requests
 cfgv==3.3.1
     # via pre-commit
@@ -43,7 +43,7 @@ jinja2==3.0.2
 markupsafe==2.0.1
     # via jinja2
 mock==4.0.3
-    # via -r requirements/tests.in
+    # via -r tests.in
 nodeenv==1.6.0
     # via pre-commit
 packaging==21.2
@@ -53,11 +53,11 @@ packaging==21.2
     #   sphinx
     #   tox
 pallets-sphinx-themes==2.0.1
-    # via -r requirements/docs.in
+    # via -r docs.in
 pep517==0.12.0
     # via pip-tools
 pip-tools==6.4.0
-    # via -r requirements/dev.in
+    # via -r dev.in
 platformdirs==2.4.0
     # via virtualenv
 pluggy==1.0.0
@@ -65,7 +65,7 @@ pluggy==1.0.0
     #   pytest
     #   tox
 pre-commit==2.15.0
-    # via -r requirements/dev.in
+    # via -r dev.in
 py==1.10.0
     # via
     #   pytest
@@ -75,7 +75,7 @@ pygments==2.10.0
 pyparsing==2.4.7
     # via packaging
 pytest==6.2.5
-    # via -r requirements/tests.in
+    # via -r tests.in
 pytz==2021.3
     # via babel
 pyyaml==6.0
@@ -90,12 +90,12 @@ snowballstemmer==2.1.0
     # via sphinx
 sphinx==4.2.0
     # via
-    #   -r requirements/docs.in
+    #   -r docs.in
     #   pallets-sphinx-themes
     #   sphinx-issues
     #   sphinxcontrib-log-cabinet
 sphinx-issues==1.2.0
-    # via -r requirements/docs.in
+    # via -r docs.in
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
@@ -105,7 +105,7 @@ sphinxcontrib-htmlhelp==2.0.0
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
 sphinxcontrib-log-cabinet==1.0.1
-    # via -r requirements/docs.in
+    # via -r docs.in
 sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.5
@@ -118,7 +118,7 @@ toml==0.10.2
 tomli==1.2.2
     # via pep517
 tox==3.24.4
-    # via -r requirements/dev.in
+    # via -r dev.in
 urllib3==1.26.7
     # via requests
 virtualenv==20.10.0
