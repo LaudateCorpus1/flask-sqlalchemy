@@ -10,7 +10,7 @@ blinker==1.4
     # via -r requirements/tests.in
 iniconfig==1.1.1
     # via pytest
-mock==4.0.3
+mock==5.0.1
     # via -r requirements/tests.in
 packaging==21.2
     # via pytest
